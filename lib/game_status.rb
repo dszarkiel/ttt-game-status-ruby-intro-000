@@ -50,5 +50,7 @@ def winner(board)
   elsif
     board = "X" > "O"
     return "X"
+  else
+    return "O"
 end
 end
