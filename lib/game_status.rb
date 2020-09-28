@@ -45,10 +45,10 @@ def over?(board)
 end
 
 def winner?(board)
-  if won?(board) == "X"
+  if position_1 == "X"
     return "X"
   elsif
-    won?(board) == "O"
+    position_1 == "O"
     return "O"
   else
     nil
