@@ -48,7 +48,7 @@ def winner(board)
   if won?(board) == false
     nil
   elsif
-    board = "X" > "O"
+    board == "X" > "O"
     return "X"
   else
     return "O"
