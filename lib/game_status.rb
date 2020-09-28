@@ -45,12 +45,12 @@ def over?(board)
 end
 
 def winner?(board)
-  if position_1 == "X"
-    return "X"
+  if won?(board) == false
+    return nil
   elsif
-    position_1 == "O"
-    return "O"
+    win_index_1 == "X"
+    return "X"
   else
-    nil
+    return "O"
   end
 end
